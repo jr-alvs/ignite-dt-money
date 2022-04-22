@@ -63,7 +63,5 @@ export const TransactionsProvider = ({ children }: ITransactionsProviderProps) =
 }
 
 export const UseTransactions = () => {
-  const context = useContext(TransactionsContext);
-
-  return context;
+  return useContext(TransactionsContext);
 }
